@@ -1,6 +1,6 @@
 function [ngrad, energy, mu]=becfff(psi0)
 global bet omg N area h v2d x y
-%复的情形，用2N维实向量表示复向量
+
 %input is a vector of size (2*N*N,1)
 % psireal=reshape(psi0(1:(N-2)*(N-2)),N-2,N-2);
 % psiimag=reshape(psi0((N-2)*(N-2)+1:2*(N-2)*(N-2)),N-2,N-2);
